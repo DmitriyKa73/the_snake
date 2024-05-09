@@ -64,7 +64,6 @@ class GameObject:
             pg.draw.rect(surface, self.body_color, rect)
             pg.draw.rect(surface, BORDER_COLOR, rect, 1)
 
-
 class Apple(GameObject):
     """Класс для яблока."""
 
